@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Header Section  -->
+
+        <header class="nav-bar">
+                <div class="title-combo">
+                    <div class="logo">
+                        <img src="C:\Users\acer\Downloads\logo.png" alt="logo">
+                    </div>
+
+                    <div class="web-name text-hover">
+                        <h2>Music</h2>
+                        <h5>Player</h5>
+                    </div>
+                </div>
+
+                <div class="fav">
+                    <a href="#">
+                        <h3 class="text-hover">Favourites</h3>
+                    </a>
+                </div>
+
+                <div class="search-box">
+                    <form action="">
+                        <button id="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" placeholder="Search.." name="search" id="search">
+                        <button id="mic" type="submit"><i class="fas fa-microphone"></i></button>
+                    </form>
+                </div>
+
+                <div class="">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+
+                <div class="">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="text-hover">
+                    <div class="nav-head">
+                    <a href="Login.html"><h2 class="login">Login</h2></a >
+                    </div>
+                </div>       
+            </header>
+
+        </header>
+
+        <!-- Main Section -->
+
+        <main>
+            <aside class="aside section-1">
+                <!-- Banner Section -->
+                <section class="container">
+                    <div class="box">
+                        <img src="C:\Users\acer\Downloads\spb.jpg" alt="Banner-1">
+                    </div>
+                    <div class="box" style="z-index: 1;">
+                        <img src="C:\Users\acer\Downloads\3.jpg" alt="Banner-3">
+                    </div>
+                    <div class="box">
+                        <img src="C:\Users\acer\Downloads\th.jpeg" alt="Banner-2">
+                    </div>
+                </section>
+
+                <!-- Latest Releases -->
+                <section class="latest-releases">
+                    <h1 class="heading-text">Latest Releases</h1>
+
+                    <div class="card">
+                        <figure>
+                          
+                                <img src="F:\Matrical\Latest\th (1).jpeg" alt="">
+                            
+                           <figcaption class="song-info">
+                                <h2>Hanuman</h2>                      
+                           </figcaption>
+                        </figure>
+
+                        <div class="options">
+                            <input type="checkbox" id="toggle-btn" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>4:44</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <figure>
+                          
+                                <img src="F:\Matrical\Latest\th (2).jpeg" alt="">
+                     
+                            <figcaption class="song-info">
+                                <h2>Bang Bang</h2>
+                           
+                            </figcaption>
+                         </figure>
+                        <div class="options">
+                            <input type="checkbox" name="" id="" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>4:44</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <figure>
+                          
+                               <img src="F:\Matrical\Latest\th.jpeg" alt="">
+                          
+
+                            <figcaption class="song-info">
+                                <h2>Taggedele</h2>
+                        
+                            </figcaption>
+                         </figure>
+                        <div class="options">
+                            <input type="checkbox" name="" id="" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>4:44</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <figure>
+                            <a href="latest release.html">
+                                <img src="F:\Matrical\Latest\th (3).jpeg" alt="">
+                            </a>
+
+                            <figcaption class="song-info">
+                                <h2>Ethukullu povali</h2>
+                             
+                            </figcaption>
+                         </figure>
+                        <div class="options">
+                            <input type="checkbox" name="" id="" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>4:44</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Popular Artists -->
+
+                <section class="popular-artists">
+                    <h1 class="heading-text">Popular Artists</h1>
+                    <div class="popular-artist-content">
+                        <figure>
+                            <a href="playlist-screen.html">
+                                <img src="F:\Matrical\Popular Artist\Ilayaraja.webp" alt="">
+                                <figcaption>Ilayaraja</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="playlist-screen.html">
+                                <img src="F:\Matrical\Popular Artist\Sid sriram.jpg" alt="">
+                                <figcaption>Sid sriram</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="playlist-screen.html">
+                                <img src="C:\Users\acer\Downloads\billie-eilish.jpg" alt="">
+                                <figcaption>Billie Eilish</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="playlist-screen.html">
+                                <img src="C:\Users\acer\Downloads\Honey-singh.jpg" alt="">
+                                <figcaption>Honey Singh</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="playlist-screen.html">
+                                <img src="C:\Users\acer\Downloads\Lil Nas X.jpg" alt="">
+                                <figcaption>Lil Nas X</figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                </section>
+
+                <!-- Latest English -->
+
+                <section class="latest-songs" id="latest-english">
+                    <h1 class="heading-text">Latest English</h1>
+                    <div class="latest-song-div">
+                        <figure>
+                            <a href="">
+                                <img src="C:\Users\acer\Downloads\Lil Nas X.jpg" alt="">
+                                <figcaption class="">
+                                    <h5>Call Me By Your Name</h5>   
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest English\th (1).jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>I'm a Mess</h5>                         
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest English\th (2).jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>End Game</h5>      
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="C:\Users\acer\Downloads\Honey-singh.jpg" alt="">
+                                <figcaption class="">
+                                    <h5>Desi Kalakaar</h5>                                 
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest English\th (4).jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>Blank Space</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                </section>
+
+                <!-- Latest Telugu -->
+
+                <section class="latest-songs" id="latest-hindi">
+                    <h1 class="heading-text">Latest Telugu</h1>
+                    <div class="latest-song-div">
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest telugu\th (4).jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>Animal</h5>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest telugu\th.jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>Naatu Naatu</h5>             
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest telugu\th (2).jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>Hi Nannna</h5>                               
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest telugu\th (3).jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>Race gurram</h5>                              
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="F:\Matrical\Latest telugu\th (1).jpeg" alt="">
+                                <figcaption class="">
+                                    <h5>Salaar</h5>                                
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- PlayList side bar -->
+
+            <aside class="aside section-2">
+               <h1 class="heading-text inline">Playlist</h1>
+               <h3 class="inline right">Queue</h3>
+
+               <div class="playlist">
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>01</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\Janatha garage.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div> Pakka local song</div>
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>02</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\Leo.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>   Leo Badass Song </div>                                
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>03</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\Jailer.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>Jailer Hukum Song</div>                                
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>04</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\guntur karam.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>Gunutur karam kurchi madathapettti</div>
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>05</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\devara.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>Devara All Hail the Tiger</div>                               
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>06</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\Saindhav.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>Saindhav Lekka Maarudhi/div>
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>07</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\th (5).jpeg" alt="">
+                                </div>
+                                <div>
+                                    <div> salaar Prathi Gaadhalo song</div>                                
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>08</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\baby.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>O Rendu premadeshala song</div>
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>09</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\hello.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>Thalachi Thalachi</div>
+                                 
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>10</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="F:\Matrical\playlist songs\waltair veerayya.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div> Boss Party</div>
+                                  
+                                </div>
+                            </div>
+
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                   </div>
+
+               </div>
+            </aside>
+        </main>
+
+        <!-- Footer:  -->
+
+        <footer>
+            <!-- <a href="playlist-screen.html"></a>
+            <div class="play-song-info trans-bg">
+                <div class="con-left trans-bg">
+                    <div class="footer-img">
+                        <a href="playlist-screen.html">
+                        <img class="small-img inline-block" src="F:\Matrical\Latest English\th (2).jpeg" alt=""> 
+                        </a>
+                         <div class="lokeshsong">                 
+                        <audio src="F:\Lokesh K\songs\Andhamaina_Premarani_Full_Video_Song__Premikudu_Movie__Prabhu_Deva,_Nagma(128kbps).mp3" controls></audio>
+                          </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="lokeshsong">
+            <audio src="F:\Lokesh K\songs\Evaru_BGM_Ringtone__Adivi_Sesh(256k).mp3" controls> </audio> 
+        </div>
+    
+        </footer>  -->
+        <div class="lokeshsong">
+        <audio src="F:\Lokesh K\songs\Andhamaina_Premarani_Full_Video_Song__Premikudu_Movie__Prabhu_Deva,_Nagma(128kbps).mp3" controls></audio>
+      </div>
+    </footer>
+
+    </body>
+</html>

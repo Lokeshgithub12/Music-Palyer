@@ -1,0 +1,487 @@
+
+body
+{
+    background-color: black;
+
+}
+
+.nav-bar{
+
+height: 12vh;
+width: 100vw;
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+padding-left: 5%;
+padding-right: 5%;
+
+
+transition: all ease-in-out 1s;
+position: fixed;
+top: 0px;
+
+
+}
+.nav-head h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+:root{
+--text-color: white;
+}
+
+header>div{
+color: var(--text-color);
+flex: 1;
+text-align: center;
+}
+
+.title-combo>div{
+display: inline-block;
+vertical-align: middle;
+}
+
+.logo img{
+height: 50px;
+width: 50px;
+border-radius: 100%;
+margin-top: 5px;
+margin-right: 20px;
+animation-name: rotating;
+animation-timing-function: ease-in-out;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes rotating {
+0%{
+transform: rotate(0deg);
+}
+
+100%{
+transform: rotate(360deg);
+}
+}
+
+.search-box{
+position: relative;
+flex: 2 !important;
+}
+
+.search-box input{
+width: 80%;
+height: 30px;
+text-align: center;
+font-size: 16px;
+color: gray;
+border-radius: 30px;
+background: white;
+outline: none;
+border: none;
+}
+
+.nav-head a{
+text-decoration: none;
+color: white;
+}
+
+
+
+.text-hover a{
+text-decoration: none;
+color: white;
+}
+main{
+margin-top: 10%;
+}
+.section-1
+{
+display: flex;
+flex-direction: row;
+
+}
+.section-1 input
+{
+width: 120px;
+height: 50px;
+border-radius: 25px;
+color: white;
+background-color:orange
+}
+
+#download
+{
+color: white;
+margin-top: 100px;
+margin-left: 500px;
+font-size: 35px;
+border: 1px solid white;
+border-radius: 50%;
+}
+#facebook
+{
+padding-left: 15px;
+color: white;
+font-size: 20px;
+
+border-radius: 50%;
+}
+#instagram
+{
+padding-left: 15px;
+color: white;
+font-size: 20px;
+
+border-radius: 50%;
+}
+#twitter
+{
+padding-left: 15px;
+color: white;
+font-size: 20px;
+
+border-radius: 50%;
+}
+#youtube
+{
+padding-left: 15px;
+color: white;
+font-size: 20px;
+
+border-radius: 50%;
+}
+
+
+.naaswamiranga-content
+{
+color: white;
+margin-left: 100px;
+}
+.naaswamiranga-image img{
+
+width: 250px;
+height: 250px;
+margin-left: 100px;
+}
+.content{
+display: flex;
+flex-direction:row ;
+}
+.content-left{
+margin-left: 100px;
+}
+.content-right
+{
+margin-top: 50px;
+margin-left: 150px;
+}
+.subcontent
+{
+display: flex;
+flex-direction: row;
+margin-top: 25px;
+}
+.subcontent-left img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.subcontent-right
+{
+margin-left: 30px;
+margin-top: 20px;
+}
+.table-content
+{
+display: flex;
+flex-direction: row;
+}
+.table-content-left img
+{
+
+width: 50px;
+height: 50px;
+}
+.table-content-right h4{
+padding-left: 15px;
+}
+table
+{
+width: 60vw;
+border-collapse: collapse;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+
+}
+th
+{
+text-align: left;
+}
+th,td,tr
+{
+padding: 10px;
+
+
+}
+tr:hover
+{
+
+border: 1px solid white;
+
+}
+.section-3 h1{
+color: white;
+margin-left: 70px;
+}
+.section-3-subcontent
+{
+display: flex;
+flex-direction: row;
+
+flex-wrap: wrap;
+}
+.section-3-subcontent h3
+{
+color :white;
+padding-left: 120px;
+padding-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+.image img{
+margin-left: 80px;
+width: 150  px;
+height: 200px;
+}
+.section-4-subcontent
+{
+display: flex;
+flex-direction: row;
+border: 0.5px solid white;
+padding: 30px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.section-4
+{
+margin-top: 3%;
+}
+.section-4-subcontent-left img{
+width: 120px;
+height: 120px;
+}
+.section-4-subcontent-right
+{
+margin-left: 15px;
+margin-top: -20px;
+}
+.section-4-subcontent-right span{
+font-size: 15px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+margin-top: 3%;
+}
+.footer-section
+{
+margin-left: 50px;
+margin-right: 100px;
+margin-top: 1%;
+}
+.footer-section-1,.footer-section-2,.footer-section-3
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.footer-subcontent
+{
+width: 18vw;
+color: white;
+padding-left: 50px;
+text-align: left;
+}
+.footer-subcontent span
+{
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.sub-footer
+{
+display: flex;
+flex-direction: row;
+
+
+}
+.sub-footer-left
+{
+display: flex;
+flex-direction: row;
+margin-left: 40px;
+font-size: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+}
+
+.sub-footer-left span
+{
+color: white;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.sub-footer-right
+{
+display: flex;
+flex-direction: row;
+margin-left: 450px;
+padding-top: 10px;
+
+}
+.bottom-footer-1
+{
+margin-left: 55px; 
+margin-right: 100px;
+}
+.sub-footer-1
+{
+margin-left: 500px;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+.sub-footer-1 span
+{
+color: white;
+
+}
+@media screen and (max-width:768px) {
+
+.logo img
+{
+width: 40px;
+height: 40px;
+margin-left: -40px;
+margin-top: 15px;
+}
+.nav-head h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.naaswamiranga-image img
+{
+width: 150px;
+height: 200px;
+margin-left: 50px;
+}
+.naaswamiranga-content
+{
+margin-left: 50px;
+}
+#download
+{
+margin-left: 200px;
+margin-top: 150px;
+}
+.content-left{
+margin-left: 20px;
+}
+.content-left h2
+{
+font-size: 1.2rem;
+}
+.content-right
+{
+margin-left: 30px;
+}
+.table-content-right h4{
+margin-top: 5px;
+font-size: 15px;
+}
+table
+{
+text-align: left;
+}
+td ,th
+{  
+font-size: 13px;
+}
+.section-3 h1{
+
+margin-left: 20px;
+font-size: 18px;
+margin-top: 3%;
+}
+.image img{
+margin-left: 20px;
+width: 120px;
+height: 150px;
+}
+.section-3-subcontent h3
+{
+
+padding-left: 30px;
+padding-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+.section-4-subcontent
+{
+margin-left: 0px;
+width: 90vw;
+}
+.footer-subcontent span
+{
+font-size: 11px;
+
+}
+.footer-section-1,.footer-section-2,.footer-section-3
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.footer-subcontent
+{
+width: 98vw;
+padding-left: 5px;
+}
+.sub-footer-left
+{
+
+margin-left:5px;
+font-size: 11px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+
+}
+
+.sub-footer-left span
+{
+color: white;
+padding-left: 5px;
+height: 3vh;
+width: 10vw;
+
+
+}
+.sub-footer-right
+{
+
+margin-left: 30px;
+padding-top: 10px;
+
+}
+.sub-footer-1
+{
+margin-left: 100px;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+}
